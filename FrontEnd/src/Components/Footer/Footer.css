@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #a3fda1;
+  font-weight: 600;
+  min-height: calc(100% - 100px);
+}
+@media (max-width: 735px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #a3fda1;
+    font-weight: 600;
+    min-height: calc(100% - 100px);
+  }
+}

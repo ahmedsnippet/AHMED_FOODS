@@ -1,0 +1,51 @@
+.HeroSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.HeroSection-left,
+.HeroSection-right {
+  flex: 1;
+}
+
+.HeroSection-left img {
+  width: 60%;
+}
+.HeroSection-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.btn button {
+  background-color: #a3fda1;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+@media (max-width: 740px) {
+  .HeroSection-left img {
+    margin-top: 15px;
+    width: 80%;
+  }
+  .HeroSection h1 {
+    font-size: 16px;
+  }
+  .para p {
+    font-size: 0.5rem;
+  }
+  .btn button {
+    background-color: #a3fda1;
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+}

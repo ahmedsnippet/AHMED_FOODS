@@ -1,0 +1,33 @@
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 20px 20px; */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+form input {
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 10px;
+}
+.left-col,
+.right-col {
+  flex: 1;
+}
+.left-col img {
+  width: 80%;
+}
+@media (max-width: 733px) {
+  .right-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .left-col{
+    display: none;
+  }
+}

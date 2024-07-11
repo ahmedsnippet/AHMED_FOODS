@@ -1,0 +1,22 @@
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 100vh;
+}
+.about-left span {
+  color: #e52e0c;
+  font-weight: 600;
+}
+@media (max-width: 733px) {
+  .about-left h1{
+    font-size: 16px;
+  }
+  .about-left p{
+    font-size: 0.3rem;
+  }
+  .about-right img{
+    display: none;
+  }
+}
